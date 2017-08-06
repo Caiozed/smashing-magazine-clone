@@ -1,0 +1,193 @@
+body {
+  font-family: "Proxima Nova Regular", "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #e5e5e5;
+  font-size: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-height: 76.25em;
+) .nw {
+  width: 50%;
+}
+
+@media screen and (min-height: 50em;
+) .nw {
+  width: 79%;
+}
+
+@media screen and (min-width: 50em) .container,
+.nw {
+  float: left;
+}
+
+@media screen and (min-width: 63.75em) .nw .container {
+  width: 21%;
+}
+
+@media screen and (min-width: 50em) .nw .current {
+  z-index: 2;
+  width: 24%;
+  background: #fff;
+}
+
+@media screen and (min-width: 50em) .nw li {
+  border-right: .08em solid rgba(0, 0, 0, .05);
+}
+
+.container {
+  border-radius: 0 .650em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+section {
+  height: 15.0em;
+  border-bottom: .2em solid rgba(0, 0, 0, 0.65);
+}
+
+.nw li {
+  float: left;
+  border-right: 1px solid rgba(0, 0, 0, .15);
+  padding: 2.90em .300em .500em .250em;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+  border-bottom: .200em solid rgba(0, 0, 0, .1);
+  margin-bottom: .500em;
+}
+
+.side-coding {
+  padding-bottom: 2em;
+  border-left: .5em solid rgba(61, 177, 255, 0.40);
+  transition: border-color .5s
+}
+
+.side-coding:hover {
+  border-color: rgba(61, 177, 255, 0.70);
+}
+
+.side-design {
+  padding-bottom: 2em;
+  border-left: .5em solid rgba(147, 204, 162, 0.40);
+  transition: border-color .5s
+}
+
+.side-design:hover {
+  border-color: rgba(147, 204, 162, 0.70);
+}
+
+.side-mobile {
+  padding-bottom: 2em;
+  border-left: .5em solid rgba(255, 216, 61, 0.40);
+  transition: border-color .5s
+}
+
+.side-mobile:hover {
+  border-color: rgba(255, 216, 61, 0.70);
+}
+
+.side-graphics {
+  padding-bottom: 2em;
+  border-left: .5em solid rgba(255, 61, 249, 0.40);
+  transition: border-color .5s
+}
+
+.side-graphics:hover {
+  border-color: rgba(255, 61, 249, 0.70);
+}
+
+.side-ux {
+  padding-bottom: 2em;
+  border-left: .5em solid rgba(255, 61, 61, 0.40);
+  transition: border-color .5s
+}
+
+.side-ux:hover {
+  border-color: rgba(255, 61, 61, 0.70);
+}
+
+.side-wordpress {
+  padding-bottom: 2em;
+  border-left: .5em solid rgba(61, 84, 255, 0.40);
+  transition: border-color .5s
+}
+
+.side-wordpress:hover {
+  border-color: rgba(61, 84, 255, 0.70);
+}
+
+.author-name {
+  width: 15%;
+  height: 1em;
+  background: rgba(0, 0, 0, .52);
+  display: block;
+}
+
+.article-header li {
+  display: inline-block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#logo {
+  width: 15.0em;
+  heigth: 5.0em padding: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.sidebar {
+  width: 20%;
+  float: left;
+  background: rgba(0, 0, 0, 0.45)
+}
+
+.sidebar ul ul li {
+  padding-left: .550em;
+}
+
+.content {
+  padding-left: .200em;
+  width: 60%;
+  float: left;
+  background: white;
+  border-radius: 0 .650em .650em 0;
+}
+
+.content img {
+  width: 100%;
+}
+
+.btn {
+  background: #3d94ff;
+  padding: .5em;
+  border-radius: .350em;
+  border: .05em solid rgba(0, 0, 0, .1);
+  color: white;
+  transition: border-color .5s
+}
+
+.btn:hover {
+  border-color: rgba(0, 0, 0, 0.51);
+}
